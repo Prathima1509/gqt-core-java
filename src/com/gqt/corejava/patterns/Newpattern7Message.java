@@ -168,7 +168,7 @@ public class Newpattern7Message {
 				}
 			}
 			for(int j=0;j<n;j++) {
-				if(j==0||i==0&&j<=n/2||j==n/2&&i<=n/2||i==n/2&&j<=n/2||i-j==n/2) {
+				if(i==0||j==0||j==n-1&&i<=n/2||i==n/2||i==j&&i>=n/2) {
 					System.out.print("*  ");
 				}
 				else {
@@ -201,7 +201,7 @@ public class Newpattern7Message {
 				}
 			}
 			for(int j=0;j<n;j++) {
-				if(j==0||i==0&&j<=n/2||j==n/2&&i<=n/2||i==n/2&&j<=n/2||i-j==n/2) {
+				if(i==0||j==0||j==n-1&&i<=n/2||i==n/2||i==j&&i>=n/2) {
 					System.out.print("*  ");
 				}
 				else {
@@ -234,7 +234,7 @@ public class Newpattern7Message {
 				}
 			}
 			for(int j=0;j<n;j++) {
-				if(j==0||i==0&&j<=n/2||j==n/2&&i<=n/2||i==n/2&&j<=n/2||i-j==n/2) {
+				if(i==0||j==0||j==n-1&&i<=n/2||i==n/2||i==j&&i>=n/2) {
 					System.out.print("*  ");
 				}
 				else {
